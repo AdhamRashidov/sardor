@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sarlavha {
+  color: red;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.sardor-img {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sardor-img img {
+  border-radius: 100%;
+}
+
+h3 {
+  margin: 25px 0;
+  color: rgb(255, 106, 47);
+}
+
+.sardor-audio {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	align-items: center;
+	border: 3px solid rgb(47, 2, 2);
+	border-radius: 25px;
+	padding: 10px 50px;
+	box-shadow: 2px 4px 4px 2px;
+}
+
+.sardor-audio h3 {
+	font-size: 22px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
