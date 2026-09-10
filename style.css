@@ -8,6 +8,7 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .sarlavha {
@@ -23,6 +24,7 @@
 
 .sardor-img img {
   border-radius: 100%;
+  object-fit: cover;
 }
 
 h3 {
@@ -31,17 +33,92 @@ h3 {
 }
 
 .sardor-audio {
-	display: flex;
-	margin-top: 50px;
-	justify-content: space-between;
-	align-items: center;
-	border: 3px solid rgb(47, 2, 2);
-	border-radius: 25px;
-	padding: 10px 50px;
-	box-shadow: 2px 4px 4px 2px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid rgb(47, 2, 2);
+  border-radius: 25px;
+  padding: 10px 50px;
+  box-shadow: 2px 4px 4px 2px;
 }
 
 .sardor-audio h3 {
-	font-size: 22px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.igrok {
+	text-align: center;
+	margin: 50px 0px;
+	font-style: italic;
+	font-size: 32px;
+}
+
+.video {
+	margin-bottom: 50px;
+}
+
+.address {
+	text-align: center;
+	margin: 50px 0;
+	font-size: 32px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 20px;
+}
+
+.address:hover {
+	color: aquamarine;
+	background-color: #ccc;
+	transition: 0.25s;
+}
+
+.hudud {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+	padding: 10px 30px;
+	font-size: 21px;
+	color: whitesmoke;
+	background-color: #999;
+	border: 3px solid teal;
+	border-radius: 8px;
+}
+
+.uyqu {
+	margin: 50px 0px;
+	font-size: 32px;
+	color: blue;
+}
+
+.radio {
+	font-size: 25px;
+	padding: 10px;
+	color: cyan;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 28px;
+	padding: 20px 0px;
+}
+
+.footer h3 {
+	color: rgb(75, 75, 47);
+}
+
+.footer a {
+	color: rgb(45, 45, 33);
+	text-decoration: none;
+}
+
+.b {
+	border: 1px solid red;
 }
