@@ -96,6 +96,11 @@ select {
 	color: blue;
 }
 
+.radio-button {
+	display: inline-block;
+	text-align: start;
+}
+
 .radio {
 	font-size: 25px;
 	padding: 10px;
